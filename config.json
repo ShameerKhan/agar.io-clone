@@ -1,7 +1,7 @@
 {
     "port": 3000,
-    "foodMass": 10,
-    "fireFood": 50,
+    "foodMass": 1,
+    "fireFood": 10
     "limitSplit": 40,
     "defaultPlayerMass": 10,
 	"virus": {
