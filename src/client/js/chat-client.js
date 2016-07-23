@@ -138,7 +138,7 @@ class ChatClient {
                 this.canvas.cv.focus();
             }
         }
-    }
+    
 
     // Allows for addition of commands.
     registerCommand(name, description, callback) {
