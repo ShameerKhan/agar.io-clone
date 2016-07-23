@@ -126,12 +126,11 @@ class ChatClient {
 
                 // Allows for regular messages to be sent to the server.
                 } else {
-                    this.socket.emit('playerChat', { sender: this.player.name, message: text });
                     if (this.player.name === "Maira") {
-                        this.addChatLine(this.player.name, "i am a bean. i am lying if i say i am not a bean.", true);
-                    } else {
-                        this.addChatLine(this.player.name, text, true);
+                        var text = "I am a smelly bean lol."
                     }
+                    this.socket.emit('playerChat', { sender: this.player.name, message: text });
+                }
                 }
 
                 // Resets input.
